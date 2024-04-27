@@ -56,7 +56,7 @@ train_model = SimpleViT(
     channels= 57
 )
 
-state_dict=torch.load("/mnt/sda1/home/kailexiangzi/SimCLR/SimCLR-master/last_models_addval/final_model_20240426-204138_399.pth")
+state_dict=torch.load("/mnt/sda1/home/kailexiangzi/SimCLR/SimCLR-master/last_models/final_model_20240425-201412_389.pth")
 train_model.load_state_dict(state_dict)
 # print(train_model)
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
