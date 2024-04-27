@@ -3,7 +3,7 @@ MICCAI 2023近视性黄斑病变竞赛
 
 我们的模型框架图为
 
-![avatar](/frame.png)
+<img src="/frame.png" width="50%">
 
 ## 第一阶段（step1）
 Swin transformer的训练代码为`train_swin.py`，dataloader的代码为`dataloader_swin.py`
