@@ -1,5 +1,5 @@
 # MICCAI-Myopic-Maculopathy-Analysis
-MICCAI 2023近视性黄斑病变竞赛
+MICCAI 2023近视性黄斑病变竞赛Task1
 
 我们的模型框架图为
 
